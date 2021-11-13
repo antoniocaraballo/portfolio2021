@@ -125,8 +125,8 @@ header #btn-down i {
   margin: 30px;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
-  width: 80%;
-  height: 550px;
+  width: 90%;
+  height: 450px;
   justify-self: center;
   align-self: center;
 }
@@ -335,6 +335,11 @@ header #btn-down i {
     grid-row: 1/span 2;
   }
 
+  .project-card {
+    height: 550px;
+    width: 70%;
+  }
+
   #skills {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -346,6 +351,7 @@ header #btn-down i {
   }
   #projects .project-card {
     justify-self: center;
+    width: 90%;
   }
 
   #skills {

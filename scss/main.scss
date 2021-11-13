@@ -132,8 +132,8 @@ header {
   display: grid;
   margin: 30px;
   transition: ease 0.5s;
-  width: 80%;
-  height: 550px;
+  width: 90%;
+  height: 450px;
   justify-self: center;
   align-self: center;
 
@@ -330,6 +330,13 @@ header {
     }
   }
 
+  // Project Cards
+
+  .project-card {
+    height: 550px;
+    width: 70%;
+  }
+
   // Skills
 
   #skills {
@@ -345,6 +352,7 @@ header {
 
     .project-card {
       justify-self: center;
+      width: 90%;
     }
   }
 
