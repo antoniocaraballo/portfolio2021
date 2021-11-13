@@ -132,9 +132,10 @@ header {
   display: grid;
   margin: 30px;
   transition: ease 0.5s;
-  width: 450px;
+  width: 80%;
   height: 550px;
-  justify-content: center;
+  justify-self: center;
+  align-self: center;
 
   &:hover {
     scale: 1.01;

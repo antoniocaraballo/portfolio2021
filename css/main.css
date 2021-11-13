@@ -125,11 +125,10 @@ header #btn-down i {
   margin: 30px;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
-  width: 450px;
+  width: 80%;
   height: 550px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-self: center;
+  align-self: center;
 }
 .project-card:hover {
   scale: 1.01;
