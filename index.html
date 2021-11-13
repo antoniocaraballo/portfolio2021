@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b46afbb9ad.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./script.js"></script>
+    <script src= 
+    "https://smtpjs.com/v3/smtp.js"> 
+  </script> 
+    <title>Antonio Caraballo</title>
+  </head>
+  <!-- Body -->
+  <body>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header>
+        <div id="logo"><i class="fab fa-gg-circle"></i></div>
+        <h1 id="name">Antonio Caraballo</h1>
+        <p id="position">Web Developer Proficient in HTML, CSS & JavaScript</p>
+        <a id="btn-down" href="./imgs/Resume2021.pdf" target="_blank" >Resume<i class="fas fa-download"></i></a>
+      </header>
+      <!-- Navbar -->
+      <nav id="navbar">
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </nav>
+      <!-- Main -->
+      <div id="main">
+        <!-- About Me Section -->
+        <section id="about-me">
+          <div class="icon">
+            <h1>
+              <img src="./imgs/memoji.png" alt="" />
+            </h1>
+          </div>
+          <h2 id="header">About Me</h2>
+          <p class="txt">
+            Hi, I’m a self-tough web developer based in Columbia, SC. I enjoy the process of creating and building new things. My mayor strength is web front-end development. Felt in love with coding because it allows me to be creative and have fun while doing a job.<br><br> My other interests are business, sports, photography, filming and gaming. I’ve learned a little bit of Adobe Lightroom, Photoshop and Premiere Pro on my own.  
+          </p>
+        </section>
+        <!-- Prejects Section -->
+        <section id="projects">
+          <!-- Card -->
+          <div class="project-card">
+            <img src="./imgs/Screen Shot 2021-11-11 at 4.25.24 PM.png" alt="" />
+            <h1 class="title">Newsletter Email</h1>
+            <p class="txt">
+              DoorDash newsletter email replica. 
+            </p>
+            <div id="btns">
+              <a href="https://newsletter-email-doordash.netlify.app"
+              target="_blank"><i class="fas fa-desktop"></i
+              ></a>
+              <a href="https://github.com/antoniocaraballo/newsletter-email-doordash"
+              target="_blank" ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="project-card">
+            <img src="./imgs/Screen Shot 2021-11-04 at 2.07.27 PM.png" alt="" />
+            <h1 class="title">Marketing Agency</h1>
+            <p class="txt">
+              Mockup marketing agency landing page. Build with HTML, CSS, SASS and JavaScript.
+            </p>
+            <div id="btns">
+              <a href="https://marketing-agency-acode.netlify.app"
+              target="_blank"><i class="fas fa-desktop"></i
+              ></a>
+              <a href="https://github.com/antoniocaraballo/marketing-agency"
+              target="_blank" ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="project-card">
+            <img src="./imgs/Screen Shot 2021-11-04 at 3.29.07 PM.png" alt="" />
+            <h1 class="title">Pizza Pizza</h1>
+            <p class="txt">
+              Full responsive website that shows a restaurant menu. Aditional to the menu page it has a "Contact Us" and "About Us" page.
+            </p>
+            <div id="btns">
+              <a href="https://pizza-pizza-acode.netlify.app"
+              target="_blank"><i class="fas fa-desktop"></i
+              ></a>
+              <a href="https://github.com/antoniocaraballo/pizzapizza"
+              target="_blank" ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="project-card">
+            <img src="./imgs/Screen Shot 2021-11-13 at 1.32.37 PM.png" alt="" />
+            <h1 class="title">Promotional Email</h1>
+            <p class="txt">
+              Recreated a real Priceline promotional email.
+            </p>
+            <div id="btns">
+              <a href="https://priceline-promotional-email.netlify.app"
+              target="_blank"><i class="fas fa-desktop"></i
+              ></a>
+              <a href="https://github.com/antoniocaraballo/priceline-promotional-email"
+              target="_blank" ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+        <!-- Skills Section -->
+        <section id="skills">
+          <!-- HTML -->
+          <div id="html">
+            <i class="fab fa-html5"></i>
+            <h1 class="title">HTML</h1>
+          </div>
+          <!-- CSS -->
+          <div id="css">
+            <i class="fab fa-css3-alt"></i>
+            <h1 class="title">CSS</h1>
+          </div>
+          <!-- JS -->
+          <div id="js">
+            <i class="fab fa-js"></i>
+            <h1 class="title">JavaScript</h1>
+          </div>
+          <!-- SASS -->
+          <div id="sass">
+            <i class="fab fa-sass"></i>
+            <h1 class="title">SASS</h1>
+          </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact-form">
+          <h1 class="title">Contact Me</h1>
+          <!-- Contact Form -->
+          <form method="POST">
+            <input id="contact-name" type="text" placeholder="Name"><br/>
+            <input id="contact-email" type="email" placeholder="Email"><br/>
+            <textarea id="contact-message" placeholder="Message"></textarea><br/>
+            <button type="button" onclick="sendEmail()">send</button>
+          </form>
+        </section>
+      </div>
+      <!-- Footer -->
+      <footer id="footer">
+        <!-- Footer Socials -->
+        <div id="socials">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/antoniocaraballo/" target="_blank"><i class="fab fa-linkedin"
+                ></i></a
+              ></i>
+            </li>
+            <li>
+              <a href="https://github.com/antoniocaraballo"
+              target="_blank" ><i class="fab fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Footer Info -->
+        <div id="contact">
+          <h2 id="name">Antonio Caraballo</h2>
+          <h2 id="email">antoniocaraballo48@gmail.com</h2>
+          <h2 id="phone">787-515-4229</h2>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

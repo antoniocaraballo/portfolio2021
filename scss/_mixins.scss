@@ -1,0 +1,61 @@
+@use 'var' as var;
+
+// Header Font Style
+
+@mixin font-header {
+  font-family: var.$font;
+  font-size: 28px;
+  font-weight: 900;
+  color: #333;
+}
+
+// Title Font Style
+
+@mixin font-title {
+  font-family: var.$font;
+  font-size: 28px;
+  font-weight: 900;
+  color: #333;
+}
+
+// Text Font Style
+
+@mixin font-txt {
+  font-family: var.$font;
+  font-size: 16px;
+  font-weight: 300;
+  color: #333;
+}
+
+// Card Bottons
+
+@mixin card-btns {
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 2px solid rgba(#e0e0e0, 1);
+  font-size: 20px;
+
+  &:hover {
+    color: #fff;
+    background-color: var.$scolor;
+  }
+}
+
+// Skills Badges
+
+@mixin skills-badge {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-size: 150px;
+
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+}
